@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MILLIY TAOMLAR</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-page">
+        <img src="./images/unnamed.webp" alt="img" />
+        <h1>MILLIY TAOMLAR</h1>
+        <button id="korzinka" class="korzinka" onclick="document.getElementById('id01').style.display='block'">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+      <div class="container-info">
+        <form class="form" action="#">
+          <input placeholder="add to do" id="qiymat" type="text" />
+          <button id="search">search</button>
+        </form>
+        <div class="btns">
+          <button id="cheap">cheap</button>
+          <button id="expensive">expensive</button>
+        </div>
+        <div class="select">
+          <select name="text" id="select">
+            <option value="all">all</option>
+            <option value="foods">foods</option>
+            <option value="drinks">drinks</option>
+            <option value="desserts">desserts</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="wrapper" class="wrapper">
+      <div class="foods">
+        <div class="foods-asd">
+          <img src="./images/assorti.jpg" alt="img" class="foods-img" />
+          <h4>Assorti</h4>
+          <h4>20.99$</h4>
+          <button id="like"><i class="fa-regular fa-heart"></i></button>
+        </div>
+      </div>
+      <div class="end-game">
+        <div class="home1">
+          <h3>Copyright 2020</h3>
+          <p>
+            Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu.
+            Nam facilisis lacinia ex, eget pellentesque in.
+          </p>
+        </div>
+        <div class="home2">
+          <h3>Sayt sahifalari</h3>
+          <p>Bosh sahifa</p>
+          <p>Xizmatlar</p>
+          <p>Kontaktlar</p>
+        </div>
+        <div class="home3">
+          <h3>Biz internetda</h3>
+          <button><i class="fa-brands fa-facebook"></i></button>
+          <button><i class="fa-brands fa-twitter"></i></button>
+          <button><i class="fa-brands fa-instagram"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="section-center">
+      <div id="id01" class="w3-modal">
+      <span onclick="document.getElementById('id01').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

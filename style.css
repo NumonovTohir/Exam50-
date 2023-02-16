@@ -1,0 +1,160 @@
+* {
+  font-family: "Space Mono", monospace;
+}
+* button {
+  cursor: pointer;
+  border: none;
+}
+* select {
+  border: none;
+}
+* input {
+  border: none;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  border-radius: 10px 10px 0px 0px;
+  background: rgb(230, 230, 230);
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.container-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.form input {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.form button {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.btns button {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.select option {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.home-page {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid; */
+  border-radius: 10px 10px 0px 0px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background: rgb(234, 186, 186);
+  padding: 10px;
+}
+.home-page button {
+  width: 100px;
+  height: 40px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+}
+.home-page button:active {
+  background: white;
+  color: black;
+}
+.fa-cart-shopping {
+  font-size: 30px;
+}
+.wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.wrapper {
+  background: rgb(230, 230, 230);
+}
+.foods {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.foods-asd {
+  margin-top: 30px;
+}
+.foods-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 24, 24, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.btns button {
+  width: 120px;
+  height: 30px;
+  background: rgb(240, 170, 170);
+  border-radius: 10px 10px 0px 0px;
+}
+.btns button:active {
+  background: white;
+}
+.form input {
+  width: 200px;
+  height: 30px;
+  background: rgb(240, 170, 170);
+  border-radius: 10px 0px 0px 10px;
+}
+.form button {
+  width: 80px;
+  height: 30px;
+  background: rgb(240, 170, 170);
+  border-radius: 0px 10px 10px 0px;
+}
+.form button:active {
+  background: white;
+}
+select {
+  width: 120px;
+  height: 30px;
+  background: rgb(240, 170, 170);
+  border-radius: 10px 10px 0px 0px;
+}
+.foods-asd button {
+  color: rgb(0, 0, 0);
+  background: rgb(230, 230, 230);
+  font-size: 30px;
+}
+.foods-asd button:active {
+  background: red;
+  border-radius: 10px;
+}
+.end-game {
+  background: #201f1f;
+  color: #ffffff;
+  display: flex;
+}
+.home1 {
+  width: 50%;
+}
+.home1 p {
+  font-size: 12px;
+}
+.home2 {
+  width: 30%;
+}
+.home2 p {
+  font-size: 12px;
+}
+.home3 {
+  width: 20%;
+}
+.home3 button {
+  font-size: 25px;
+  border-radius: 10px;
+}
+.w3-modal {
+  width: 50%;
+  margin-left: 530px;
+}
